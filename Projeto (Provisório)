@@ -1,0 +1,14 @@
+lol-api-project/
+│
+├── app/
+│   ├── __init__.py          # Inicialização da aplicação Flask
+│   ├── routes.py            # Definição das rotas da API
+│   ├── models.py            # Modelos de dados para o PostgreSQL
+│   └── services.py          # Funções para interação com a Riot API
+│
+├── migrations/              # Diretório para scripts de migração do banco de dados
+│
+├── requirements.txt         # Dependências do projeto
+├── config.py                # Configurações do Flask e do banco de dados
+├── run.py                   # Script para rodar a aplicação
+└── README.md                # Documentação do projeto
